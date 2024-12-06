@@ -53,3 +53,7 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//STACK(primitive)==>copy of og value
+// HEAP (non primitive) ===>refernce to og value......if changes done change done in og value
+//https://youtu.be/7gwc-1czolw?si=4dcLu82Wva2GY3kU 
