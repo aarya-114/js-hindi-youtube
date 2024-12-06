@@ -1,6 +1,14 @@
 // array
+//mixed datatypes
+//resizable array
+//when copy operation is done ===>shallow copy (by refernce)
 
-const myArr = [0, 1, 2, 3, 4, 5]
+
+/*
+WHEN DO WE GET PROTOTYPE?....AND WHAT IS PROTOTYPE
+*/
+
+const myArr = [0, 1, 2, 3, 4, 5,"true","hello"]   //can accept all datatypes element in an array
 const myHeors = ["shaktiman", "naagraj"]
 
 const myArr2 = new Array(1, 2, 3, 4)
