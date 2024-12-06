@@ -33,11 +33,29 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 
 // slice, splice
+/*
+DIFF IN SLICE AND SPLICE
+SPLICE==>include last number element
+         and make changes in original element
+*/
+
+
+
+const a1=[1,2,3,4,5];
+console.log(`a1=> ${a1}`)
+const sliced=a1.slice(1,3)
+console.log(`slice =>${sliced}`)
+const b1=a1;
+console.log(`b1=>${b1}`);
+const spliced=b1.splice(1,3)
+console.log(`splice =>${spliced}`)
+console.log(`b1=>${b1}`);
+
+
+
 
 console.log("A ", myArr);
-
 const myn1 = myArr.slice(1, 3)
-
 console.log(myn1);
 console.log("B ", myArr);
 
