@@ -1,6 +1,26 @@
 //  Primitive
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
+// Reference (Non primitive)==> Array, Objects, Functions
+
+
+/*
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+*/
+
+
 const score = 100
 const scoreValue = 100.3
 
@@ -10,22 +30,21 @@ let userEmail;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-
 console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
+//n is used for BigInt
 
 
 
-// Reference (Non primitive)
 
-// Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
+const heros = ["shaktiman", "naagraj", "doga"];     //array
+
 let myObj = {
     name: "hitesh",
     age: 22,
-}
+}   
 
 const myFunction = function(){
     console.log("Hello world");
