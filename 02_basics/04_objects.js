@@ -4,19 +4,18 @@ const tinderUser = {}
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
 tinderUser.isLoggedIn = false
-
 // console.log(tinderUser);
+
 
 const regularUser = {
     email: "some@gmail.com",
     fullname: {
-        userfullname: {
+        userfullname: {                  //nesting object within object
             firstname: "hitesh",
             lastname: "choudhary"
         }
     }
 }
-
 // console.log(regularUser.fullname.userfullname.firstname);
 
 const obj1 = {1: "a", 2: "b"}
@@ -24,12 +23,13 @@ const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
 // const obj3 = { obj1, obj2 }
-// const obj3 = Object.assign({}, obj1, obj2, obj4)
+// const obj3 = Object.assign({}, obj1, obj2, obj4)      //object.assign(target,source)
+//                          (target, s o u r c e )
 
-const obj3 = {...obj1, ...obj2}
+const obj3 = {...obj1, ...obj2}        //spread operator
 // console.log(obj3);
 
-
+//databases che values comes as array of objects
 const users = [
     {
         id: 1,
