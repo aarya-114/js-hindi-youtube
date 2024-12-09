@@ -28,7 +28,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)      //object.assign(target,source)
 //                          (target, s o u r c e )
 
-const obj3 = {...obj1, ...obj2}        //spread operator
+const obj3 = {...obj1, ...obj2}        //SPREAD OPERATOR
 // console.log(obj3);
 
 //databases che values comes as array of objects
