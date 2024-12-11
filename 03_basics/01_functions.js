@@ -8,7 +8,7 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+// sayMyName()       //REFERNCES
 
 // function addTwoNumbers(number1, number2){
 
@@ -26,7 +26,7 @@ const result = addTwoNumbers(3, 5)
 
 // console.log("Result: ", result);
 
-
+//OVERWRITE......DEFAULT VALUE PASSED="Sam"
 function loginUserMessage(username = "sam"){
     if(!username){
         console.log("PLease enter a username");
