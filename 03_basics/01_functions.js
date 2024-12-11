@@ -26,6 +26,7 @@ const result = addTwoNumbers(3, 5)
 
 // console.log("Result: ", result);
 
+
 //OVERWRITE......DEFAULT VALUE PASSED="Sam"
 function loginUserMessage(username = "sam"){
     if(!username){
@@ -38,19 +39,20 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
 
-
+//MULTIPLE VALUES...USING REST OPERATOR
+//function calculateCartPrice(...num1){
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
-
 // console.log(calculateCartPrice(200, 400, 500, 2000))
+
 
 const user = {
     username: "hitesh",
     prices: 199
 }
-
 function handleObject(anyobject){
+    //anyobject is used to pass object of any name ***********************
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
@@ -61,7 +63,7 @@ handleObject({
 })
 
 const myNewArray = [200, 400, 100, 600]
-
+//GETARRAY************************
 function returnSecondValue(getArray){
     return getArray[1]
 }
