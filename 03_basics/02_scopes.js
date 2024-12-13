@@ -1,7 +1,10 @@
-//var c = 300
+//var c = 300    //scope ke bhar print hota hai
+//c=100          //scope ke bhar print hota hai
+
 let a = 300
-if (true) {
-    let a = 10
+if (true)
+{
+    let a = 10     
     const b = 20
     // console.log("INNER: ", a);
     
@@ -44,15 +47,13 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
-
+console.log(addone(5))        //output is given
 function addone(num){
     return num + 1
 }
 
 
-
-addTwo(5)
+addTwo(5)    //error is given
 const addTwo = function(num){
     return num + 2
 }
