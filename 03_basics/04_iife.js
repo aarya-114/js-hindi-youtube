@@ -8,6 +8,8 @@
     console.log(`DB CONNECTED`);
 })();
 
+
+//with arrow function
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
 } )('hitesh')
