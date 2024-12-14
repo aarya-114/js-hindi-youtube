@@ -1,0 +1,37 @@
+JS EXECUTION CONTEXT **********
+1. global ec==>this is reffered  (  ===>browser==>js engine within ==>this is Window Obj)
+this is reffered diffeernrtly in browser and standalone js engine like node 
+
+2.function ec
+3.eval ec
+
+
+CODE EXECTION***********
+1.memory creation phase
+2.execution phase
+
+
+
+1.global execution ->this
+2.memory creation   
+      variables as undefine
+      function  defination
+3.execution phase
+      variables assign with value
+      function call==>new execution context==>new  variable environment + excution thread ==>an deleted once work is done
+
+
+CALL STACK
++-----------------+
+|   three()       |      these are methods....removed in form of lifo
++-----------------+
+|   two()         |
++-----------------+
+|   one()         |
++-----------------+
+|  global ec      |
++-----------------+
+
+
+
+js is single threaded
