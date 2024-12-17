@@ -1,3 +1,9 @@
+//because for of is not applied over objects 
+//for of is applied over map
+
+
+
+//hence this is used...for loop with in operator
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
