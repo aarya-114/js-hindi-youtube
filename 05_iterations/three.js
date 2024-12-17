@@ -1,5 +1,4 @@
-// for of
-
+// for of ............mostly used for array
 // ["", "", ""]
 // [{}, {}, {}]
 
@@ -14,14 +13,17 @@ for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
 
-// Maps
 
+
+
+// Maps
 const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United States of America")
 map.set('Fr', "France")
 map.set('IN', "India")
 
+//maps vs object...mdn
 
 // console.log(map);
 
