@@ -1,3 +1,4 @@
+//while 
 
 let index = 0
 // while (index <= 10) {
@@ -13,6 +14,8 @@ while (arr < myArray.length) {
     arr = arr + 1
 }
 
+
+//do while
 let score = 11
 
 do {
