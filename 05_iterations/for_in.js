@@ -4,6 +4,7 @@
 
 
 //hence this is used...for loop with in operator
+//for in......on objects
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
